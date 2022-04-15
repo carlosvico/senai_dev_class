@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/pos.css">
+    <title>Tabelas</title>
+<style>
+    :root{
+    --fundo: rgb(165, 74, 235);
+}
+
+body{
+margin: 15px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table{
+      width: 100%;
+      border-collapse: collapse ;
+      padding: 15px;
+
+  }
+
+  td, thead, th, tfoot{
+      border: 1px solid rgb(0, 0, 0);
+      padding: 5px;
+  }
+
+  #ft, #h{
+    background-color: var(--fundo);
+  }
+
+  .bg{
+    background-color: yellow;
+  }
+</style>
+
+</head>
+<body>
+
+    <header class="header">
+        <span>  <a href="/">CVCorp</a></span>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Ex01</a></li>
+                <li><a href="#">Ex02</a></li>
+                <li><a href="semantica.html">Ex03</a></li>
+                <li><a href="lista.html">Ex04</a></li>
+                <li><a href="posicionamento.html">Ex05</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+
+    <main class="bg">
+
+      
+
+            <h3>Minha Tabela</h3>
+
+            <table id="tab">
+              <thead>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+              </thead>
+              <tr>
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+              </tr>
+              <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+              </tr>
+              <tr>
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+              </tr>
+            </table>
+        
+            <h2>Merge de colunas</h2>
+            <table>
+              <thead>
+                <th colspan="2">MERGE AB</th>
+                <th>C</th>
+        
+              </thead>
+              <tr>
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+              </tr>
+              <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+              </tr>
+              <tr>
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+              </tr>
+            </table>
+        
+            <h2>Merge de linhas</h2>
+        
+            <table>
+              <thead>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+              </thead>
+              <tr>
+                <td rowspan="3">MERGE A1.A2,A3</td>
+                <td>B1</td>
+                <td>C1</td>
+              </tr>
+              <tr>
+                <!-- <td>A2</td> -->
+                <td>B2</td>
+                <td>C2</td>
+              </tr>
+              <tr>
+                <!-- <td>A3</td> -->
+                <td>B3</td>
+                <td>C3</td>
+              </tr>
+            </table>
+        
+            <h2>Exercicio Trello: Tabela</h2>
+        
+        
+            <table>
+                
+                <thead>
+            
+                <tr id="h"><th colspan="4">MINHA TABELA</th></tr>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+                <th>D</th>
+                
+                </thead>
+                
+                <tfoot>
+                
+                <tr id="h"><td colspan="4">MEU RODAPÉ</td></tr>
+                
+                </tfoot>
+              
+                <tbody>
+               
+                    <tr>
+                        <td>A1</td>
+                        <td>B1</td>
+                        <td>C1</td>
+                        <td>D1</td>
+                      </tr>
+                      <tr>
+                        <td>A2</td>
+                        <td>B2</td>
+                        <td>C3</td>
+                        <td>D4</td>
+                      </tr>
+            
+                
+                </tbody>
+                
+                </table>
+                
+            
+
+      
+    </main>
+
+    <footer>
+        <p>Author: Carlos Vieira</p>
+        <p><a href="https://m2s203.netlify.app/">Site</a></p>
+      </footer> 
+    
+</body>
+</html>
+
+
+
+<!-- 
+1 - No topo deverá conter o nome da empresa e links para as outras páginas
+2 - O conteúdo principal é um texto explicando o que a empresa faz.
+3 - Na parte inferior deverão conter os dados de contato e links para acessar as redes sociais da empresa.
+ -->
+ 

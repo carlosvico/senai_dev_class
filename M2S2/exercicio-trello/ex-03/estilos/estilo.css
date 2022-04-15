@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+boody, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+body{
+    background-color: rgb(100, 71, 161);
+}
+.bg{
+    text-align: center;
+    background-color: yellow;
+    padding: 15px;
+}
+
+header{
+    height: 20%;
+}
+
+main{
+    height: 60%;
+}
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    background-color: black;
+    align-items: center;
+    justify-items: center;
+
+}
+footer p {
+   
+    padding: 10px;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+     font-family: 'Rubik Wet Paint', cursive;
+    
+}
+h3{
+    font-family: 'Rubik Wet Paint', cursive;
+
+}
+span a {
+    font-family: 'Rubik Wet Paint', cursive;
+    color: rgb(179, 16, 193);
+}
+
+.header{
+    background-color: rgb(30, 25, 25);
+    display: flex;
+    
+    /*-- Acrescentando espaço entre os elementos, 
+    logo e elementos de menu ficam nas estremidadas da pagina*/
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+
+nav ul {
+    list-style: none;
+    
+    padding: 0;
+    color: rgb(28, 193, 16);
+  }
+  nav li{
+      margin-left: 10px;
+
+  }
+
+.menu{
+    display: flex;
+}
+
+.painel{
+    background-color: rgba(202, 225, 71, 0.838);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+
+.pai{
+    height: 300px;
+    width: 300px;
+    background-color:  aquamarine;
+    position: relative;
+   
+   
+
+
+
+}
+.filho{
+    height: 50px;
+    width: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.ds{
+    right: 0;
+    top: 0;
+}
+
+.di{
+    right: 0;
+    bottom: 0;
+}
+
+.ei{
+    left: 0;
+    bottom: 0;
+}
+
+.es{
+    left: 0;
+    top: 0;
+}
+
+.lista{
+   justify-content: center;
+}

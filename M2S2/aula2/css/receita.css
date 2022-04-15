@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body {
+    background-color: #825230;
+    margin: 0;
+    padding: 0%;
+
+}
+
+h1 {
+    font-family: 'Oxygen', sans-serif;
+    ;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-style: oblique;
+    font-size: 1rem;
+    text-align: center;
+}
+
+p {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 500;
+}
+
+span {
+    color: #A16038;
+   
+}
+
+/* .container {
+    display: inline-grid;
+
+} */
+
+
+.bolo img {
+    border-radius: 15px;
+    max-width: 70%;
+    box-shadow: 6px 6px 9px 0px rgba(12, 10, 8, 0.75);
+    object-fit: contain;
+    display: block;
+}
+
+
+.cartao{
+    position: relative;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    /* margin-top: 50px;
+    margin-left: 80px; */
+    margin: 20px 10px 5px;
+    background-color: beige;
+    border-block-style: dashed;
+    /* centralizar todos os elementos da */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* final da centralização */
+
+
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 10px;
+    width: 280px;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card p {
+    color: #A19438;
+    font-size: 16px;
+    text-align: center;
+}
+
+.cd-relogio {
+    border-left: 3px solid #3bb54a;
+  }
+
+  .cd-rendimento {
+    border-left: 3px solid #f9b62f;
+  }
+
+  .imagem {
+    margin-inline-start: 59px;
+    max-inline-size: 64px;
+    max-block-size: 64px;
+  }
+   

@@ -1,0 +1,33 @@
+:root{
+    --blue-crayola: #1273ebff;
+    --green-sheen: #6fb9a9ff;
+    --granny-smith-apple: #9edc88ff;
+    --yellow-green-crayola: rgb(229, 223, 62);
+    --inchworm: #b5ee77ff;
+    --inchworm-2: #ccff66ff;
+    --ksu-purple: #5d2e8cff;
+    --tiffany-blue: #2ec4b6ff;
+    --meuroxo: rgb(161, 40, 163);
+    }
+    
+    body{
+        background-color: var(--blue-crayola);
+        display: flex;
+    }
+    
+    .cadastro{
+        width: 600px;
+        height: 450px;
+        background-color: var(--meuroxo);
+    
+    }
+    
+    .imagem-container{
+        height: 450px;
+        width: 50%;
+        display: flex;
+    }
+    
+    .imagem > img {
+        width: 50%;
+    }
