@@ -22,9 +22,9 @@
 ## 🛠️ Descritivo de alguns Exercicios
 
 - Modo Desktop
-![print modo desktop]([https://github.com/carlosvico/senai_dev_class/blob/main/M2S2/exercicio-trello/ex-7-10/img/desk.png])
+![print modo desktop](https://github.com/carlosvico/senai_dev_class/blob/main/M2S2/exercicio-trello/ex-7-10/img/desk.png)
 - Modo Mobile
-![print modo mobile]([https://github.com/carlosvico/senai_dev_class/blob/main/M2S2/exercicio-trello/ex-7-10/img/mobile.png])
+![print modo mobile](https://github.com/carlosvico/senai_dev_class/blob/main/M2S2/exercicio-trello/ex-7-10/img/mobile.png)
 
 ## Proposta de exercicio 07: Elaboração de formulario simples com o conteúdo visto em aula
 
