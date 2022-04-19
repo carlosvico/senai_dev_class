@@ -1,6 +1,6 @@
 var misturaTudo = (arrayOriginal, segundoArray) => {
     
-    return arrayOriginal.concat(segundoArray);
+    return arrayOriginal.push(segundoArray);
 }
 
 let arrayNumerica = [1,2,3];
