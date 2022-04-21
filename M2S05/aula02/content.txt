@@ -1,0 +1,2 @@
+o rest (...array) pode ser adequado quando quero pegar dados sensiveis , e garantir que os originais não serão alterados
+
