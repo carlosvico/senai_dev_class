@@ -26,7 +26,7 @@
 <p float="right">
   
   - Modo Desktop
-  <img src="https://github.com/carlosvico/senai_dev_class/blob/main/M2S2/exercicio-trello/ex-7-10/img/desk.png" width="30%" height="300" hspace="10"  vspace="10"/>
+  <img src="https://github.com/carlosvico/senai_dev_class/blob/main/M2S02/exercicio-trello/ex-7-10/img/desk.png" width="30%" height="300" hspace="10"  vspace="10"/>
   
   - Modo Mobile
   <img src="https://github.com/carlosvico/senai_dev_class/blob/main/M2S2/exercicio-trello/ex-7-10/img/mobile.png"  width="30%" height="500" hspace="10" vspace="10"/> 
