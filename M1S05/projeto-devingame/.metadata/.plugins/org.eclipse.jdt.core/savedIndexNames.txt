@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\Users\StackDev\Desktop\DevInhouse\M1S05\projeto-devingame\.metadata\.plugins\org.eclipse.jdt.core
-726498011.index
-1865797976.index

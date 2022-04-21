@@ -2,12 +2,16 @@
 
 # Conteudo de estudos e alguns exercícios realizados em aula
 
-* M1S6
-* M1S9
+* M1S03
+* M1S04
+* M1S05
+* M1S06
+* M1S09
 * M1S12
-* M2S2
-* M2S3
-* M2S4
+* M2S02
+* M2S03
+* M2S04
+* M2S05
 
 
 
