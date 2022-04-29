@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    background-color: blueviolet;
+    margin: 0;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+table {
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(128, 175, 238);
+    border-collapse:collapse;
+    /* border: none; */
+}
+thead{
+    background-color: rgb(23, 106, 216);
+}
+#tbl-jogadores{
+    text-align: center;
+    display: column;
+    position: absolute;
+    margin-top: 500px;
+ 
+    
+
+}
+
+
+
+td{
+    padding: 20px;
+    border: 2px #000 solid;
+}
+

@@ -10,27 +10,27 @@ todoButton.addEventListener('click', addTodo)
 // Functions
 function addTodo(event){
 
-    // Prevent formu submitting
+    // impede a ação padrão 
     event.preventDefault()
     
-    // Creating Todo Div
+    // Cria o div do Todo
     const todoDiv = document.createElement('div');
     todoDiv.classList.add('todo');
 
-    // Create li
+    // Cria as Li's
     const newTodo = document.createElement('li');
     newTodo.innerText = todoInput.value;
     newTodo.classList.add('todo-item')
 
     todoDiv.appendChild(newTodo);
 
-    // Creating mark button
+    // Botão de marcar
     const completeButton = document.createElement('button');
     completeButton.innerHTML = '<i class="fas fa-check"></i>';
     completeButton.classList.add('complete-btn');
     todoDiv.appendChild(completeButton);
 
-    // Creating trash button
+    // Botão
     const trashButton = document.createElement('button');
 
     // botao apagar
@@ -50,7 +50,11 @@ function addTodo(event){
             setInterval(function () {
                 apagar.target.parentNode.parentNode.remove();
             }, 200);
-        })
+        });
+
+
+
+
 
    
 
