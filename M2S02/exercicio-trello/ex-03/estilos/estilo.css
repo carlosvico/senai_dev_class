@@ -24,8 +24,8 @@ main{
     height: 60%;
 }
 
-footer{
-    margin-top: 20px;
+footer {
+    /* margin-top: 20px; */
     display: flex;
     justify-content: center;
     height: 20%;

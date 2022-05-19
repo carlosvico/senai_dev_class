@@ -1,7 +1,7 @@
 package br.senai.javaspring.ex05.service;
 
 import br.senai.javaspring.ex05.model.Cliente;
-import br.senai.javaspring.ex05.model.ClienteDto;
+import br.senai.javaspring.ex05.dto.ClienteDto;
 import br.senai.javaspring.ex05.repository.ClienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

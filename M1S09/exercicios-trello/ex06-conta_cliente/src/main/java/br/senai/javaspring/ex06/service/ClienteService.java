@@ -1,8 +1,8 @@
-package br.senai.javaspring.ex05.service;
+package br.senai.javaspring.ex06.service;
 
-import br.senai.javaspring.ex05.model.Cliente;
-import br.senai.javaspring.ex05.model.ClienteDto;
-import br.senai.javaspring.ex05.repository.ClienteRepository;
+import br.senai.javaspring.ex06.model.Cliente;
+import br.senai.javaspring.ex06.model.ClienteDto;
+import br.senai.javaspring.ex06.repository.ClienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;

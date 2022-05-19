@@ -1,4 +1,4 @@
-package br.senai.javaspring.ex05.model;
+package br.senai.javaspring.ex05.dto;
 
 import lombok.Data;
 

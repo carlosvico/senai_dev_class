@@ -22,15 +22,15 @@ public class Cliente {
     @NotBlank
     @Column(name = "cliente_nome")
     private String nome;
-    @CPF
+//    @CPF
     @NotBlank
     @Column(name = "cliente_cpf")
     private String cpf;
 
 
-    @OneToMany
-    @Column(name = "conta_id")
-    private Conta conta;
+//    @OneToMany
+//    @Column(name = "conta_id")
+//    private Conta conta;
 
 }
 

@@ -1,4 +1,4 @@
-package br.senai.javaspring.ex05;
+package br.senai.javaspring.ex06;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

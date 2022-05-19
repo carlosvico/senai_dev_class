@@ -1,4 +1,4 @@
-package br.senai.javaspring.ex05.model;
+package br.senai.javaspring.ex06.model;
 
 import com.sun.istack.NotNull;
 import lombok.AllArgsConstructor;
@@ -10,10 +10,11 @@ import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
 @Entity
 public class Cliente {
+
+    private static int contador = 1;
     @NotNull
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Estratégias de geração de chave primária
@@ -22,16 +23,20 @@ public class Cliente {
     @NotBlank
     @Column(name = "cliente_nome")
     private String nome;
-    @CPF
+//    @CPF
     @NotBlank
     @Column(name = "cliente_cpf")
     private String cpf;
 
 
-    @OneToMany
-    @Column(name = "conta_id")
-    private Conta conta;
 
+    public Cliente(Long id, String nome, String cpf, Conta conta) {
+        this.id = id;
+        this.nome = nome;
+        this.cpf = cpf;
+        contador += 1;
+
+    }
 }
 
 
