@@ -1,4 +1,4 @@
-## Ex 1 - Roteiro de Treinamento Wiki
+##  Roteiro de Treinamento Wiki - Exercício Trello #1
 
 - [x] Características da linguagem Javascript
 
@@ -21,12 +21,49 @@
     <ol>
     <li>Arrow function</li>
         - Arrow function é uma função no javascript, porem ela traz algumas diferenças quando comparada com funções normais
-    
+
     <li>Function</li>
         - Uma função JavaScript é um bloco de código projetado para executar uma tarefa específica.
     </ol>
 
-http://www.nce.ufrj.br/ginape/js/conteudo/introducao/caracteristicas.htm#:~:text=Javascript%20%C3%A9%20uma%20linguagem%20baseada,similares%20s%C3%A3o%20agrupados%20em%20classes.
 
 
-    <!-- https://siteantigo.portaleducacao.com.br/conteudo/artigos/informatica/o-que-e-um-array/66596#:~:text=Um%20array%20%C3%A9%20uma%20sequ%C3%AAncia,sendo%20o%20%C3%ADndice%20desse%20dado. -->
+##  Fonts
+```
+ http://www.nce.ufrj.br/ginape/js/conteudo/introducao/caracteristicas.htm#:~:text=Javascript%20%C3%A9%20uma%20linguagem%20baseada,similares%20s%C3%A3o%20agrupados%20em%20classes.
+
+
+https://siteantigo.portaleducacao.com.br/conteudo/artigos/informatica/o-que-e-um-array/66596#:~:text=Um%20array%20%C3%A9%20uma%20sequ%C3%AAncia,sendo%20o%20%C3%ADndice%20desse%20dado.
+
+
+ ```
+
+
+<hr>
+
+## Especificação  da ToDo List  - Exercício Trello #6
+
+> O que nossa lista fará
+
+ - Realizará o cadastro de tarefas a serem realizadas
+
+> Quantos campos input teremos em nossa lista?
+
+- A aplicação terá apenas um campo Input , responsável por receber a informação a ser inserida na lista.
+
+> Quantos botões?
+
+Possuirá 3 botões.
+1.  Inserir
+2.  Marcar
+3.  Excluir
+
+
+> O que cada botão fará?
+
+ - O botão inserir irá cadastrar o dado inserido no input
+- O botão Marcar deixará o item cadastrado marcado e com a opacidade reduzida , significando que aquela tarefa ja foi realizada.
+- O botão excluir retirará o item da lista uma finalizada a tarefa.
+
+> Os dados serão persistidos?
+- O dados serão persisteidos no localStorage

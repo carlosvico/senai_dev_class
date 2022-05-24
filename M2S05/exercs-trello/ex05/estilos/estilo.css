@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+boody, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+body{
+    background-color: rgb(100, 71, 161);
+    overflow: hidden;
+}
+
+header{
+    height: 20%;
+}
+
+main{
+    height: 60%;
+}
+
+
+.footer {
+
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    height: 5%;
+    background-color: black;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    left: 0;
+
+}
+footer p {
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+     font-family: 'Rubik Wet Paint', cursive;
+
+}
+h3{
+    font-family: 'Rubik Wet Paint', cursive;
+
+}
+span a {
+    font-family: 'Rubik Wet Paint', cursive;
+    color: rgb(179, 16, 193);
+}
+
+.header{
+    background-color: rgb(30, 25, 25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+nav ul {
+    list-style: none;
+
+    padding: 0;
+    color: rgb(28, 193, 16);
+  }
+  nav li{
+      margin-left: 10px;
+
+  }
+
+.menu{
+    display: flex;
+}
+
+.painel{
+    background-color: rgba(202, 225, 71, 0.838);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco {
+    background-color: azure;
+    margin: 15px 0 ;
+    text-align: center;
+    padding: 15px;
+}
